@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.section`
     width: 100%;
-    height: 13.25rem;
+    /* height: 13.25rem; */
+    min-height: 13.25rem;
     margin-top: -5.5rem;
     background: ${({theme}) => theme.colors["base-profile"]};
     box-shadow: 0px 2px 28px rgba(0,0,0, 0.2);
