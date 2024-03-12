@@ -6,4 +6,9 @@ export const LayoutContainer = styled.div`
         max-width: 52rem;
         margin: 0 auto;
     }
+
+    @media (max-width: 54rem) {
+        padding: 0 1rem;
+    }
+
 `
